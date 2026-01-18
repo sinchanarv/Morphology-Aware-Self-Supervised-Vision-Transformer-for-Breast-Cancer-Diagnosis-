@@ -1,0 +1,16 @@
+# Ignore Data
+data/
+data/raw/
+data/processed/
+
+# Ignore Python Environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Models (optional, but usually we don't upload large .pth files)
+# You can keep 'best_classifier.pth' if it's under 100MB
+models/ssl_checkpoint.pth
+
+# Ignore VS Code settings
+.vscode/
